@@ -1,0 +1,32 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+.education{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+}
+.projects{
+    width: 100%;
+    height: 100vh;
+}
+.message{
+    width: 100%;
+    height: 100vh;
+}
